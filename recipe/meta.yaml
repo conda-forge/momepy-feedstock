@@ -24,6 +24,7 @@ requirements:
     - networkx
     - libpysal
     - tqdm
+    - gdal >=2.4
 
 test:
   imports:
