@@ -1,5 +1,5 @@
 {% set name = "momepy" %}
-{% set version = "0.1rc1" %}
+{% set version = "0.1rc2" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
