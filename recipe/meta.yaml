@@ -1,5 +1,5 @@
 {% set name = "momepy" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cfb4129f15545559827e178feb9977c91c1f82d1537d4cc9ef9214381a2cb58b
+  sha256: 8cb3473862e2f0dc3a8ab8f032eddfe2b5ca2d840f6b0b92374c00787f0fdb85
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Urban Morphology Measuring Toolkit for Python'
+  summary: Urban Morphology Measuring Toolkit for Python
 
   description: |
     Momepy is a project allowing advanced quantitative analysis of urban morphology.
