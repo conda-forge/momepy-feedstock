@@ -5,7 +5,7 @@ Home: http://momepy.org
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Urban Morphology Measuring Toolkit for Python
 
