@@ -5,9 +5,13 @@ Home: http://momepy.org
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/momepy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Urban Morphology Measuring Toolkit for Python
+
+Development: https://github.com/martinfleis/momepy
+
+Documentation: http://docs.momepy.org
 
 Momepy is a project allowing advanced quantitative analysis of urban morphology.
 Embracing principles of Urban Morphometrics, this toolkit aims to provide tools
