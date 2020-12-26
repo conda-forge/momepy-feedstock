@@ -24,7 +24,8 @@ requirements:
     - networkx
     - libpysal
     - tqdm
-    - gdal >=2.4
+    - pygeos
+    - scipy
 
 test:
   imports:
