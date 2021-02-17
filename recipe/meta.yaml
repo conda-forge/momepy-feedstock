@@ -1,5 +1,5 @@
 {% set name = "momepy" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9d4ad53c750fef233a875a8ab711ec92b07fe95d004e15005bb4b38c808116e
+  sha256: d55f9b716336702dbc435d0c0235b28469f56579ca5ab5bd358d1f2c1b871155
 
 build:
   noarch: python
