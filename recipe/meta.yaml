@@ -1,5 +1,5 @@
 {% set name = "momepy" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4e09c2fd4bf0bc44e4b65692bc08c56add326d5610a3fddc545354cba978b36b
+  sha256: 44a67b00ca7cd61895162eb017470058494b98eb0ebff8970146790ed6ff0fcc
 
 build:
   noarch: python
@@ -33,8 +33,8 @@ test:
 
 about:
   home: http://momepy.org
-  license: MIT
-  license_family: MIT
+  license: BSD 3-Clause
+  license_family: BSD
   license_file: LICENSE
   summary: Urban Morphology Measuring Toolkit for Python
 
