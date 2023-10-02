@@ -11,13 +11,15 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python >=3
     - pip
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
     - python >=3
     - geopandas >=0.8
