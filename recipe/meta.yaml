@@ -45,7 +45,7 @@ about:
     Embracing principles of Urban Morphometrics, this toolkit aims to provide tools
     for the development of complex frameworks for a description of urban structures.
   doc_url: http://docs.momepy.org
-  dev_url: https://github.com/martinfleis/momepy
+  dev_url: https://github.com/pysal/momepy
 
 extra:
   recipe-maintainers:
