@@ -156,6 +156,3 @@ Feedstock Maintainers
 * [@knaaptime](https://github.com/knaaptime/)
 * [@martinfleis](https://github.com/martinfleis/)
 
-
-<!-- dummy commit to enable rerendering -->
-
