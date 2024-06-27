@@ -9,7 +9,7 @@ Package license: BSD-3-Clause
 
 Summary: Urban Morphology Measuring Toolkit for Python
 
-Development: https://github.com/martinfleis/momepy
+Development: https://github.com/pysal/momepy
 
 Documentation: http://docs.momepy.org
 
@@ -155,7 +155,4 @@ Feedstock Maintainers
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
 * [@martinfleis](https://github.com/martinfleis/)
-
-
-<!-- dummy commit to enable rerendering -->
 
