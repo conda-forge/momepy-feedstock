@@ -1,5 +1,5 @@
 {% set name = "momepy" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7a6b92487f648afbc8951eb1dbff3db94211651e661b5dc7f11cc5f709f111a
+  sha256: baca604e379d5713e3e8a86e823d7aa4cac0f4674916543199c6057e888ecf6e
 
 build:
   noarch: python
@@ -16,18 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3
+    - python >=3.10
     - pip
     - setuptools >=61.0
     - setuptools-scm >=6.2
   run:
     - python >=3.10
-    - geopandas >=0.12
-    - networkx >=2.7
-    - libpysal >=4.6
-    - tqdm
+    - geopandas >=0.12.0
+    - libpysal >=4.12.0
+    - networkx >=2.8
+    - packaging
+    - pandas >=1.5.1
     - shapely >=2
-    - scipy
+    - tqdm >=4.63.0
 
 test:
   imports:
