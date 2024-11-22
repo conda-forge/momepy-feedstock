@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.10
+    - python {{ python_min }}
     - pip
     - setuptools >=61.0
     - setuptools-scm >=6.2
   run:
-    - python >=3.10
+    - python >={{ python_min }}
     - geopandas >=0.12.0
     - libpysal >=4.12.0
     - networkx >=2.8
@@ -33,6 +33,8 @@ requirements:
 test:
   imports:
     - momepy
+  requires:
+    - python {{ python_min }}
 
 about:
   home: http://momepy.org
